@@ -2,11 +2,6 @@
 # history is what replaces them.
 .backup/
 
-# The language reference and the worked example belong to the app repository,
-# which tracks them at these same paths: a skill pack is the bundles alone.
-CCAT.md
-gold.ccat
-
 # Runtime state written by the app.
 match_debug/
 memory.md
