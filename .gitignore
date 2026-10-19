@@ -1,0 +1,4 @@
+# This branch holds the README only; every other branch is a pack, and carries
+# its own .gitignore.
+.backup/
+.DS_Store
