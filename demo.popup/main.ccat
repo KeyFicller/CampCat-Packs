@@ -1,0 +1,4 @@
+// The 关闭 caption sits on the activity card only. The dimmed reward page keeps its title,
+// so the page anchors rule themselves out while this is up and this is what answers here.
+if (has("popup_close.png")) { return true }
+return false

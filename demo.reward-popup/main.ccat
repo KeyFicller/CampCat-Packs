@@ -1,0 +1,4 @@
+// On the reward page the 模拟活动弹窗 button raises the timed-activity popup. The page itself
+// carries no popup, so this is a clean move; the 关闭 caption on the card proves it appeared.
+tap("activity_btn.png")
+wait_until("popup_close.png", 8000)   // the 限时活动 card's 关闭 button

@@ -1,0 +1,20 @@
+// Harvests the idle reward on the lobby and stays on the lobby. The done state is the
+// 今日已收完 line that appears above the button; the button itself changes only its fill.
+defs {
+  harvest   = "harvest.png"            // the cyan 收菜 button
+  done_text = "harvest_done_text.png"  // the 今日已收完 line above it, shown once harvested
+}
+
+// "Already harvested" is a normal screen, not a failure, so it is a branch rather than a
+// wait_until that would have to time out.
+if (has(done_text)) {
+  log("already harvested today")
+} elif (has(harvest)) {
+  tap(harvest)
+  wait_until(done_text, 8000)          // the line only appears once the tap landed
+  log("vegetables collected")
+} else {
+  log("neither the 收菜 button nor the 今日已收完 line is on screen")
+  return false
+}
+return true

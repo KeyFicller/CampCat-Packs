@@ -1,0 +1,4 @@
+// The lobby title sits top left on this screen and on no other. The tab captions repeat on
+// every page, so they cannot tell this page apart; the title can.
+if (has("home_title.png")) { return true }
+return false

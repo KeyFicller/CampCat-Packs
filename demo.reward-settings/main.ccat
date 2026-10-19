@@ -1,0 +1,3 @@
+// From the reward page the bottom bar's 设置 tab opens the settings page.
+tap("settings_tab.png")
+wait_until("settings_title.png", 8000)   // 设置 replaces 每日领奖 in the title

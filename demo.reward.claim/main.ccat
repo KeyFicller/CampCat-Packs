@@ -1,0 +1,18 @@
+// Claims the idle reward on the reward page and stays there. A claimed page shows
+// the grey 今日已领取 pill instead of the cyan button; that is a normal result.
+defs {
+  claim   = "claim.png"     // the cyan 领取挂机奖励 button, present only while claimable
+  claimed = "claimed.png"   // the grey 今日已领取 pill that replaces it
+}
+
+if (has(claim)) {
+  tap(claim)
+  wait_until(claimed, 8000)  // the pill only changes once the claim landed
+  log("idle reward claimed")
+} elif (has(claimed)) {
+  log("already claimed today")
+} else {
+  log("neither the claim button nor the 今日已领取 pill is on screen")
+  return false
+}
+return true

@@ -1,0 +1,4 @@
+// The 关闭 button on the activity popup dismisses it and leaves the reward page that raised
+// it. Nothing is spent here, so the move is safe to repeat.
+tap("popup_close.png")
+wait_until("reward_title.png", 8000)   // back on the reward page once the card is gone

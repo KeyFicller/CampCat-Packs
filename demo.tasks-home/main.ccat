@@ -1,0 +1,3 @@
+// From the daily tasks page the bottom bar's 主页 tab returns to the lobby.
+tap("home_tab.png")
+wait_until("home_title.png", 8000)   // 挂机大厅 is the lobby's own title

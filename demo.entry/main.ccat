@@ -1,0 +1,4 @@
+// The game's own launcher icon, on every desktop page. Nothing on the game screens has
+// this green rounded square with a white cat face.
+if (has("app_icon.png")) { return true }
+return false

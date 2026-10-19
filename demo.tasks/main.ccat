@@ -1,0 +1,3 @@
+// The title 每日任务 is on this page only; the tab captions repeat on every page.
+if (has("tasks_title.png")) { return true }
+return false

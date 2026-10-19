@@ -1,0 +1,18 @@
+// Checks in for the daily task and stays on the daily tasks page. After the check-in
+// the cyan 签到 button is a grey 已签到 pill; that is a normal result, not a failure.
+defs {
+  signin = "signin.png"      // the cyan 签到 button, present only while today is unsigned
+  signed = "signed.png"      // the grey 已签到 pill that replaces it
+}
+
+if (has(signin)) {
+  tap(signin)
+  wait_until(signed, 8000)   // the pill only greys out once the tap landed
+  log("checked in for today")
+} elif (has(signed)) {
+  log("already checked in today")
+} else {
+  log("neither the 签到 button nor the 已签到 pill is on screen")
+  return false
+}
+return true

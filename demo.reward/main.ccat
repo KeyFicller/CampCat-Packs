@@ -1,0 +1,11 @@
+// The title 每日领奖 is on this page only. The tab captions and the buttons repeat or change
+// with state, so neither can identify the page. The activity popup leaves the title visible
+// and dims the card, so its 关闭 caption rules this page out first.
+defs {
+  title = "reward_title.png"
+  popup_x = "popup_close.png"
+}
+
+if (has(popup_x)) { return false }   // the 限时活动 popup is up: this is the popup, not the page
+if (has(title)) { return true }
+return false

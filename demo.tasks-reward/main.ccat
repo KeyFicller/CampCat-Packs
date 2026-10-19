@@ -1,0 +1,3 @@
+// From the daily tasks page the bottom bar's 领奖 tab opens the reward page.
+tap("reward_tab.png")
+wait_until("reward_title.png", 8000)   // 每日领奖 replaces 每日任务 in the title

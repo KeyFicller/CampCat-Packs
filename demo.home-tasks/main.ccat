@@ -1,0 +1,3 @@
+// From the lobby the bottom bar's 任务 tab opens the daily tasks page.
+tap("tasks_tab.png")
+wait_until("tasks_title.png", 8000)   // 每日任务 replaces 挂机大厅 in the title

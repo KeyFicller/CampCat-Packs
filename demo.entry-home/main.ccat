@@ -1,0 +1,5 @@
+// From the desktop into the game. A cold start spends a few seconds on the launcher
+// before the lobby paints; the lobby title is what proves we arrived.
+tap("app_icon.png")
+wait(2000)                             // launcher hand-off; the lobby takes a moment longer
+wait_until("home_title.png", 15000)   // the lobby's own title 挂机大厅

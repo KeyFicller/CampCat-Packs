@@ -1,0 +1,4 @@
+// The title 设置 is on this page only and in this size; the small 设置 tab caption is far
+// smaller and sits in the bottom bar, so it does not match this cut.
+if (has("settings_title.png")) { return true }
+return false
