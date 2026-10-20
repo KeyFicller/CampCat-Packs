@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 generals list screen: dark grey background; top-left gold calligraphy title 武将 over an ink branch; top tab row 武将 / 百家武将 / 特性 with the first tab lit; top-right red X close button and 搜索 button; middle is a grid of general cards (荀彧, 沮授, 卫瓘, 关银屏, 刘禅, 十常侍, 张辽, 文鸯, 曹纯, 张春华, 曹彰, 典韦 ...) with green 部队一/二/三 labels; top-left 部队中 dropdown; right side vertical 筛选 button; bottom bar with 战法经验 count, 187/300 counter, 政策总览, 成就录, 外观商店. Fixed parts: the gold title, the tab row, the X and 搜索 buttons, the bottom bar captions, the card frame style. Varying parts: the card grid contents (heroes, levels, troops, stars), the top announcement banner text, the counters.

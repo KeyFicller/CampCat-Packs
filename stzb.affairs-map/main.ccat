@@ -1,0 +1,3 @@
+// From the affairs (内政) screen back to the sandbox map. Taps the round back-arrow button top-right (~2370,72).
+tap("back_arrow.png")             // the round cream back-arrow button at the top-right of the affairs screen
+wait_until("wujiang_tab.png", 20000)   // the white 武将 tab glyphs on the map's bottom-left, back on the sandbox

@@ -1,0 +1,3 @@
+// From the sandbox map into the faction screen. Taps the bottom-left vertical 势力 tab (~630,1222).
+tap("shili_tab.png")             // the white 势力 glyphs on the map's bottom-left vertical tab
+wait_until("shili_title.png", 20000)   // the gold 势力 title of the faction screen

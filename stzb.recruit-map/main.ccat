@@ -1,0 +1,3 @@
+// From the recruit screen back to the sandbox map. Taps the red X close button top-right (~2330,72).
+tap("close_x.png")                // the red X close button of the recruit screen
+wait_until("wujiang_tab.png", 20000)   // the white 武将 tab glyphs on the map's bottom-left, back on the sandbox

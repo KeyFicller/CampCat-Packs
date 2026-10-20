@@ -1,0 +1,3 @@
+// From the sandbox map into the affairs (内政) screen. Taps the bottom-left vertical 内政 tab (~492,1222).
+tap("neizheng_tab.png")           // the white 内政 glyphs on the map's bottom-left vertical tab
+wait_until("mingwang.png", 20000)      // the white 名望 label in the affairs screen's left panel

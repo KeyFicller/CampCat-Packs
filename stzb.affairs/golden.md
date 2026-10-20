@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 affairs (内政) screen: 3D hall scene at night (moon over the city silhouette, wooden sand-table desk, standing civil and military officers); left semi-transparent panel shows player info (name 荷笠带斜阳 #7271871, alliance 茶馆, 北军联盟) and the attribute list 势力 / 名望 / 武勋 / 领地 / 建设值 / 荣誉 / 五铢 with their values; diamond buttons scattered over the scene: 政策, 寻珍, 委任, 市集, 交易, 市井, 政务, 演武, 税收, 悬赏, 特性; top-right round back-arrow button (~ (2370,72)). Fixed parts: the hall scene layout, the left panel labels and layout, the diamond button positions, the round back arrow. Varying parts: the attribute numbers, player name/alliance text, 税收 可领取 badge, moon and candle flicker.

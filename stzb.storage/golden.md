@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 storage (库藏) screen: dark grey background; top-left gold calligraphy title 库藏 over an ink branch; top tab row 战法 / 宝物 / 道具 / 外观 / 货币 with 战法 lit red; top-right 搜索 button and red X close button (~ (2330,72)); left vertical category column 全部 / 攻击 / 谋略 / 恢复 / 辅助; middle is a grid of tactic cards (千机谋变, 神锋破巧, 革甲众行, 断铁倾旗, 惊雷破阵, 形兵列阵, 速战迎击, 铁骑冲锋, 乱矢蓄川) with S/A/B rank rings and 赛季 tags; right vertical 筛选 button; bottom bar with 战法经验 3737, 163/300 counter, 攻略 and 拆解战法. Fixed parts: the gold title, the tab row, the category column, the X and 搜索 buttons, the bottom bar captions. Varying parts: the card grid contents and counters, the selected category highlight.

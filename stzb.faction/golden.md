@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 faction (势力) screen: dark grey background; top-left gold calligraphy title 势力; top-right red X close button (~ (2330,72)); top tab row 城池 / 军事 / 建设 / 经济 with 城池 in red selected state; below it the 佣工分配 24/24 panel (采集 21, 建造 2, 征兵 1, 屯田 0, 空闲 0; 木材 / 铁矿 / 石料 / 粮草 plus-minus bars and the 优先铁矿 dropdown); below that the city card list (荷笠带斜阳 (374,929) 兵力 59232 预备兵 17775/24000 耐久 1850/1850 with 卫瓘, 关银屏 cards, 添加 slots, 守军 / 参军; 常山戍城 (373,933) with 袁绍, 关兴&张苞, 蒯良&越, 董卓 cards). Fixed parts: the dark grey background, the gold calligraphy title, the red X, the tab row layout, the panel layout. Varying parts: the numbers (兵力, 预备兵, 耐久, 佣工分配), coordinates, card contents, 建设中 badges, timers.

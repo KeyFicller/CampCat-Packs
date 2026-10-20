@@ -1,0 +1,3 @@
+// From the general detail screen back to the city interior. Taps the red X close button top-right (~2362,72).
+tap("close_x.png")               // the red X close button of the general detail screen
+wait_until("budui_zonglan.png", 20000)   // the grey 部队总览 caption at the city view's bottom-right

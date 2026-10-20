@@ -1,0 +1,40 @@
+// From the sandbox map to the battlefield tile view: top-right pin button, 定位 panel's 个人 tab, then the 战场 row.
+// The battlefield view keeps this map's own chrome (bottom-left 武将/库藏/内政/势力/同盟 tabs, 招募 diamond),
+// so it is the same page with a tile selected, not a page of its own -- this action starts and ends on stzb:map.
+// Every step checks its wait_until and says which template was missing before stopping, so a failure
+// in the log names the step that did not land instead of printing success anyway.
+defs {
+  pin      = "locate_pin.png"   // the round white pin button, map top-right, above the 常山 / 太原 coordinate label
+  person   = "person_tab.png"   // the 个人 tab caption in the 定位 panel; present only once the panel is open
+  row      = "zhanchang.png"    // the 战场 row caption (first entry of the 个人 list)
+  setoff   = "fangyanhua.png"   // 放烟花 caption, right button column -- only once the battlefield tile is selected
+}
+
+// Step 1: the pin opens the 定位 panel -- its tab row is the proof the tap landed.
+tap(pin)
+if (wait_until(person, 8000)) {
+  log("定位 panel open")
+} else {
+  log("定位 panel did NOT open - person_tab.png (个人 tab) never appeared after tapping the pin, so the 定位 panel is not up")
+  return false
+}
+
+// Step 2: the 个人 tab lists the 战场 entry, which the 建筑 tab does not.
+tap(person)
+if (wait_until(row, 8000)) {
+  log("个人 list shows 战场")
+} else {
+  log("个人 list did NOT show 战场 - zhanchang.png never appeared after tapping the 个人 tab, so the list did not switch")
+  return false
+}
+
+// Step 3: the 战场 row jumps the map to the tile, which adds the right button column.
+tap(row)
+if (wait_until(setoff, 12000)) {
+  log("battlefield tile selected on the map")
+} else {
+  log("battlefield tile NOT selected - fangyanhua.png (放烟花) never appeared after tapping the 战场 row, so the map did not jump to the tile")
+  return false
+}
+
+return true

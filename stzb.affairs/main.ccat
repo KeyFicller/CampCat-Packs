@@ -1,0 +1,3 @@
+// Affairs (内政) screen. The white 名望 label in the left panel's attribute list is fixed chrome of this screen only.
+if (has("mingwang.png")) { return true }
+return false

@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 city interior view: zoomed bird's-eye of the walled main city (streets and palaces inside the walls); diamond/round buttons floating over the city — 外观 (black diamond with brush icon, ~ (770,540)), 委任 (round portrait ~ (955,320)), 守军 (square portrait ~ (1530,330)), white diamond 设施 (~ (1955,440)); bottom row of five army slot cards (1 卫瓘, 2 添加, 3 关银屏, 4 添加, 5 添加); bottom bar with 预备兵 rate and count, 耐久 value, and two grey buttons 阵容录 and 部队总览 at bottom right; top-right question diamond and round back-arrow button. Fixed parts: the city layout and wall shape, the floating button positions, the five slot cards layout, the bottom bar captions 阵容录 / 部队总览. Varying parts: reserve troop numbers and timers, slot card heroes and their timers/levels, resource bar values on top.

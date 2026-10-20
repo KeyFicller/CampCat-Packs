@@ -1,0 +1,3 @@
+// City interior view. The grey 部队总览 button caption at bottom right is fixed chrome of this screen only.
+if (has("budui_zonglan.png")) { return true }
+return false

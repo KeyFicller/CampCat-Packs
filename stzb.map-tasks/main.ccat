@@ -1,0 +1,3 @@
+// From the sandbox map into the tasks screen. Taps the red scroll 任务 button at the map's top-left (~80,120).
+tap("renwu_scroll.png")          // the red scroll button with the white 任务 caption, map top-left
+wait_until("renwu_title.png", 20000)   // the gold 任务 title of the tasks screen

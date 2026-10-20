@@ -1,0 +1,9 @@
+# Manual snapshots of graphs; kept on disk, never versioned. The repository
+# history is what replaces them.
+.backup/
+
+# Runtime state written by the app.
+match_debug/
+memory.md
+
+.DS_Store

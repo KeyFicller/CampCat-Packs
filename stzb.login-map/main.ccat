@@ -1,0 +1,8 @@
+// From the title/login screen into the sandbox map. Taps the red 开始游戏 caption,
+// then waits out the 10-60 s load into the map.
+if (has("start_game.png")) {
+  tap("start_game.png")            // the red start button caption on the login screen
+}
+loop(3) {                          // up to 60 s of loading; wait_until inside if reports false on timeout
+  if (wait_until("wujiang_tab.png", 20000)) { break }
+}

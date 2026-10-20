@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 recruit screen: dark grey background; top-left gold calligraphy title 招募 over an ink branch; top tab row 招募 / 典藏 / 典籍 with the first tab lit; top-right 转化经验 checkbox, 3星及以下 dropdown and red X close button (~ (2330,72)); middle holds four tall vertical pool banners 开国之才(3-5星), 蜀汉名将(3-5星), 武将(1-4星), 汉末三国(3-5星), each with a price footer (200 / 200 / 300 / 免费招募) and some with a 后免费 countdown; bottom bar with resource counts (3737, 336, 10755, 26万4940) plus 心愿武将 and 武将卡 187/300. Fixed parts: the gold title, the tab row, the X and dropdown, the bottom bar layout. Varying parts: pool banner art and countdown timers, resource numbers.

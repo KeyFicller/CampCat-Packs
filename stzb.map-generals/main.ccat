@@ -1,0 +1,3 @@
+// From the sandbox map into the generals list. Taps the bottom-left vertical 武将 tab.
+tap("wujiang_tab.png")            // the white 武将 glyphs on the map's bottom-left vertical tab (~190,1219)
+wait_until("wujiang_title.png", 20000)   // the gold 武将 title of the generals list screen

@@ -1,0 +1,3 @@
+// Title/login screen. The white 开始游戏 caption on the red button is fixed and appears only here.
+if (has("start_game.png")) { return true }
+return false

@@ -1,0 +1,3 @@
+// General detail screen. The white 列传 glyphs of the left vertical tab column are fixed chrome of this screen only.
+if (has("liezhuan_tab.png")) { return true }
+return false

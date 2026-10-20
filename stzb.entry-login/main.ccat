@@ -1,0 +1,4 @@
+// From the launcher desktop into the game's title/login screen.
+// The 率土之滨 icon sits top-left on the desktop; the game then loads for 5-10 s.
+tap("stzb_icon.png")              // the 率土之滨 app icon, desktop top-left ~(829,266)
+wait_until("start_game.png", 20000)   // the title screen's 开始游戏 caption once loading finishes

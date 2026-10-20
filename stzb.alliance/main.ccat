@@ -1,0 +1,3 @@
+// Alliance (同盟) screen. The gold calligraphy 同盟 title at top-left is fixed chrome of this screen only.
+if (has("tongmeng_title.png")) { return true }
+return false

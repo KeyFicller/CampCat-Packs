@@ -1,0 +1,3 @@
+// Launcher desktop first page. The 率土之滨 app icon sits top-left and appears only on this screen.
+if (has("stzb_icon.png")) { return true }
+return false

@@ -1,0 +1,3 @@
+// From the city interior into the general detail screen. Taps the round 委任 portrait button (~955,320).
+tap("weiren_btn.png")            // the round 委任 portrait button at the city's top-left area
+wait_until("liezhuan_tab.png", 20000)   // the white 列传 glyphs of the detail screen's left tab column

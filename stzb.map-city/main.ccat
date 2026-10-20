@@ -1,0 +1,12 @@
+// From the sandbox map into the city interior. Tapping the walled main city at the
+// centre pops a radial menu; its white 城池 diamond enters the city view.
+tap_at(0.508, 0.5)                  // the walled main city at the centre of the sandbox
+wait(1200)                          // the radial menu pops out around the tap point
+if (has("chengchi.png")) {
+  tap("chengchi.png")               // the white diamond 城池 button of the radial menu
+} else {
+  tap_at(0.508, 0.5)                // the first tap toggled the menu shut; open it again
+  wait(1200)
+  tap("chengchi.png")
+}
+wait_until("budui_zonglan.png", 20000)   // the city view's bottom-right 部队总览 caption

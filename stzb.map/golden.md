@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 main world sandbox map: green grid terrain with the walled main city in the centre; top resource bar (wood/iron/stone/food rates and stocks, jade and copper counts); top-left 任务 scroll button and player avatar; top row of round event icons (活动, 庆典, 74/90, 深夜, 郿坞夺宝, 百家社); left faction list (蒯良&蒯越, 董卓, 关兴&张苞); bottom-left row of vertical tab labels (武将, 库藏, 内政, 势力, 同盟); bottom-right diamond 招募 button; bottom chat bar. Fixed parts: the terrain grid style, the walled city layout, the vertical tab labels and their white glyphs, the 任务 scroll, the 招募 diamond. Varying parts: resource numbers and timers, event badges and red dots, faction list portraits, chat bar text, clouds and scroll position of the terrain.

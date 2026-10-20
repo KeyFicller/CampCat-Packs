@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 general detail screen: dark red battlefield background; left holds a vertical black name plate (diamond 魏 glyph above vertical blue name 乐进) with five yellow stars under it; centre is the general's standing portrait (halberd-bearing 乐进); left dark vertical tab column 领兵 / 内政 / 列传 / 外观 with the selected tab carrying a red icon; top-right purple banner 每战先登 with a gold 極 diamond and a square refresh button; right text block 政策品质 S级, 等级上限 10级, 目标类型 主城, 政策类型 军务, 政策详情, 3级 >> 4级, 上限等级 / 卸任参军 / 1政策升级 buttons; bottom tags 前期开荒 / 攻击 / 宜前锋; bottom-right 内政点 0; top-right red X close button (~ (2362,72)). Fixed parts: the background style, the vertical tab column and its white glyphs, the name plate layout, the banner and button layout, the red X. Varying parts: the general shown (portrait, name, stars), policy texts and numbers, the selected tab.

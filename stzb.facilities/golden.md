@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 facilities (设施) screen, opened from the city's white diamond 设施 button: grey mist background with huge faint 军 / 政 calligraphy; top banner shows the 3D main-city model with the white caption 城主府 8/8 under it; below, a tech tree of building diamonds in rows 壹 / 贰 / 叁 (校场, 民居, 疾风营, 铁壁营, 募兵所, 仓库, 伐木场, 炼铁场, 军机营, 尚武营, 磨坊, 采石场 ...) each with a name and level caption and most carrying a gold 極 badge; top-left gold calligraphy player name over an ink branch; top-right red X close button (~ (2362,70)). Fixed parts: the mist background and watermark glyphs, the banner with the 城主府 caption, the tech-tree layout and building captions, the red X. Varying parts: building levels and 極 badges, the row scroll position, the player name text.

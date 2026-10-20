@@ -1,0 +1,3 @@
+// From the city interior into the facilities screen. Taps the white diamond 设施 button (~1955,440).
+tap("sheshi_btn.png")            // the white diamond 设施 button with the black gate icon, city right side
+wait_until("chengzhufu.png", 20000)   // the white 城主府 caption under the facilities screen's city banner

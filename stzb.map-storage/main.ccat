@@ -1,0 +1,3 @@
+// From the sandbox map into the storage (库藏) screen. Taps the bottom-left vertical 库藏 tab (~342,1222).
+tap("kucang_tab.png")             // the white 库藏 glyphs on the map's bottom-left vertical tab
+wait_until("kucang_title.png", 20000)   // the gold 库藏 title of the storage screen

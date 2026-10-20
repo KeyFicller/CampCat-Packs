@@ -1,0 +1,3 @@
+// Faction (势力) screen. The gold calligraphy 势力 title at top-left is fixed chrome of this screen only.
+if (has("shili_title.png")) { return true }
+return false

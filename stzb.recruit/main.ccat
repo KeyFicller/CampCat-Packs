@@ -1,0 +1,3 @@
+// Recruit screen. The gold calligraphy 招募 title top-left is fixed and appears only here.
+if (has("zhaomu_title.png")) { return true }
+return false

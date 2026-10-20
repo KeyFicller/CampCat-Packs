@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 alliance (同盟) screen: military-tent council illustration background (standing general and seated soldiers); top-left gold calligraphy title 同盟; left semi-transparent panel: alliance name 茶|馆, tag 君临|执法, 当前等级:49 with 6076万/10684.7万 progress bar, 成员:340/340, 所属州:并州, 城池:27, 势力值:1066770, 同盟加成 (木材/铁矿/石料/粮草 +24%, 成员 +290, 互助加速时间 120秒), 城池加成; bottom-left diamond 同盟驻地; middle diamond buttons 外交, 军略, 成员, 官员, 市井, 势力; right side 同盟公告 panel, 查看悬赏 and 同盟互助 bars, round 日志 and 战报 buttons, bottom-right 同盟列表; top-right red X close button (~ (2365,72)). Fixed parts: the tent illustration, the gold title, the panel layout and captions, the diamond button positions, the red X. Varying parts: the level/progress numbers, member and city counts, bonus percentages, announcement text.

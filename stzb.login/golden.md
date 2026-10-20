@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 login / title screen: flags-and-city-walls scene background; centre holds the big title art "三国 率土之滨" with STZB.163.COM under it; middle-lower sits the red "开始游戏" button (caption centred ~ (1280,1170)); above it a server info bar ("X6005 决胜中原 征服 点击换区"); to the button's right the "自动登录" checkbox; top-right an announcement bar; left and right screen edges carry columns of small diamond icons. Fixed parts: the title art, the red 开始游戏 button and its white caption, the checkbox, the layout of side icon columns. Varying parts: server bar text, announcement bar text, red-dot badges on the side icons.

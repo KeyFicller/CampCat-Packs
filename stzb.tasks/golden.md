@@ -1,0 +1,4 @@
+---
+kind: page
+---
+《率土之滨》 tasks (任务) screen: grey mist battlefield background; top-left gold calligraphy title 任务 over an ink branch; top tab row 名望 / 主要事宜 / 事务 with 名望 in red selected state; centre holds a large half-circle wheel (red/yellow/blue/black sectors, inner ring captions 发展/治理/攻城/征战, centre orange 極 glyph with Ⅲ and 24925/31000 below); right side 分享 diamond button; bottom row of rank diamonds 良Ⅱ6000, 良Ⅲ8000, 优Ⅰ9500, 优Ⅱ11500, 优Ⅲ13500, 卓Ⅰ17000, 卓Ⅱ18000, 卓Ⅲ19000, 極Ⅰ20000, 極Ⅱ21000, 極Ⅲ22000; bottom bar 本级解锁 当前等级无功能解锁 with reward cards (3次/3次/2次/可选4次); top-right question diamond and red X close button (~ (2330,72)). Fixed parts: the mist background, the gold title, the tab row, the wheel layout and sector colours, the rank diamond row layout, the red X. Varying parts: the centre progress numbers, the selected sector highlight, reward card counts.
