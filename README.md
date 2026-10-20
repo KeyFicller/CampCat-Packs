@@ -12,7 +12,11 @@ bundles sit at the top of the tree, not under a folder named after the branch.
 ```text
 main      (this file only — no pack)
 demo      demo.entry/, demo.map/, demo.map-city/, ...  + operator.md
+stzb      stzb.entry/, stzb.map/, stzb.map-city/, ...  + operator.md
 ```
+
+Where two branches hold the same graph, the newer one is the pack to use; the
+older is the snapshot it was built from.
 
 To read a pack, check out its branch or browse it on GitHub. To play one, put it
 where CampCat looks for its library (`ccat_library/` beside `config.json`); when
