@@ -1,0 +1,21 @@
+// One 300-coin recruit on the 武将(1-4星) pool: expand the pool, recruit once,
+// close the result sheet back to the pool list. Starts and ends on stzb.recruit.
+defs {
+  pool_price = "pool_300.png"      // coin 300 footer of the 武将(1-4星) pool on the list
+  once_btn   = "once_300.png"      // white 招募1次 plate (coin 300) on the expanded pool layer
+  result_bar = "result_once.png"   // bottom-center 300/招募1次 bar, only on the result view
+  close_x    = "result_close.png"  // red X at top-right of the result view
+  free_tag   = "free_recruit.png"  // 免费招募 footer of the 汉末三国 pool, only on the list
+}
+
+tap(pool_price)                    // expand the 武将(1-4星) pool
+wait_until(once_btn, 4000)         // the expanded layer shows the 招募1次 plate on the right
+
+tap(once_btn)                      // spend 300 coin on a single recruit
+wait_until(result_bar, 11000)      // the result view: obtained card over the bottom 300/招募1次 bar
+log("recruit result shown")
+
+tap(close_x)                       // the X collapses the whole layer; never tap the card (it opens general_detail)
+wait_until(free_tag, 4000)         // back on the pool list: the 汉末三国 footer reads 免费招募
+log("back on the recruit pool list")
+return true
